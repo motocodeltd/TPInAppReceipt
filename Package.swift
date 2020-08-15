@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(name: "TPInAppReceipt", targets: ["TPInAppReceipt"]),
     ],
-	dependencies: [.package(name: "ASN1Swift", url: "https://github.com/tikhop/ASN1Swift", .branch("master"))],
+	dependencies: [.package(name: "ASN1Swift", url: "https://github.com/tikhop/ASN1Swift", .branch("eb862bb7cd3a1a4e93d1914185d1053cfee66c5d"))],
     targets: [
         .target(
             name: "TPInAppReceipt",
